@@ -1,4 +1,4 @@
-This scripts is dependent upon a commandline interface for Signal (see https://github.com/AsamK/signal-cli)
+This script is dependent upon a commandline interface for Signal (see https://github.com/AsamK/signal-cli)
 
 In short, run these commands (replace 0.6.8 if there's a new version number):
 
