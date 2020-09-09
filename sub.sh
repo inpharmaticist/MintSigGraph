@@ -97,6 +97,9 @@ showresult=1
 #Get rid of "\n" and replace it with a linebreak. There's probably a better way to do this but whatevs
             then breakermaker=("${array4[x]//"\n"/" 
 "}")
+            breakermaker=("${array4[x]//"\s"/"
+"}")
+
             if [[ "$breakermaker" == *"Thunar"* ]] #I don't want messages if I just ejected a thumb drive.
                 then dummy=1
                 else #Send the message of interest and add to the sent doc
