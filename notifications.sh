@@ -93,7 +93,8 @@ showresult=1
 
             then breakermaker=("${array4[x]//"\n"/"
 "}")
-
+            breakermaker=("${array4[x]//"\s"/"
+"}")
 
                 echo "${array4[x]}" >> sentmessages.txt                
                 echo "$breakermaker"
